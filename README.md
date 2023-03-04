@@ -1,3 +1,3 @@
 # Design Simple Microprocessor
 ## Instruction Set Encoding
-![alt text](InstructionSetEncoding.jpg)
+![alt text](image/InstructionSetEncoding.jpg)

@@ -1,7 +1,7 @@
 # Design Simple Microprocessor
-# Introduction
+## Introduction
 An 8-bit soft processor written in Verilog.
-# CPU Registers
+## CPU Registers
 CPU registers are shown below:\
 \
 ![alt text](image/Register.jpg)
@@ -51,3 +51,6 @@ CPU supports the following Addressing Modes:
 
 **Bit status AFTER the execution of an instruction**
 - Rn	Bit n of the result of an operation.
+## System design
+\
+![alt text](image/System.jpg)

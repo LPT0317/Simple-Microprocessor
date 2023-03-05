@@ -58,7 +58,6 @@ CPU supports the following Addressing Modes:
 - Add 2 number A and B.
 \
 ![alt text](image/Sim_prog1.jpg)
-\
 - Fibonacci
 \
 ![alt text](image/Sim_prog2.jpg)

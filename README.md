@@ -57,4 +57,4 @@ CPU supports the following Addressing Modes:
 ## Simulation on Vivado
 Add to number A and B. Waveform:
 \
-![alt text](image/prog1_sim.jpg)
+![alt text](image/Sim_prog1.JPG)

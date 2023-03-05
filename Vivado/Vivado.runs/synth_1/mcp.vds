@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Mar  5 18:49:15 2023
+# Process ID: 16796
+# Current directory: D:/Udemy/FPGA course/Microprocessor Design/Simple-Microprocessor/Vivado/Vivado.runs/synth_1
+# Command line: vivado.exe -log mcp.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mcp.tcl
+# Log file: D:/Udemy/FPGA course/Microprocessor Design/Simple-Microprocessor/Vivado/Vivado.runs/synth_1/mcp.vds
+# Journal file: D:/Udemy/FPGA course/Microprocessor Design/Simple-Microprocessor/Vivado/Vivado.runs/synth_1\vivado.jou
+# Running On: LAPTOP-4DC9UOE4, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 17024 MB
+#-----------------------------------------------------------
+source mcp.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental {D:/Udemy/FPGA course/Microprocessor Design/Simple-Microprocessor/Vivado/Vivado.srcs/utils_1/imports/synth_1/mcp.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/Udemy/FPGA course/Microprocessor Design/Simple-Microprocessor/Vivado/Vivado.srcs/utils_1/imports/synth_1/mcp.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top mcp -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 32092
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+ERROR: [Synth 8-36] 'jimmy_clk' is not declared [D:/Udemy/FPGA course/Microprocessor Design/Simple-Microprocessor/Vivado/Vivado.srcs/sources_1/new/MCP.v:124]
+INFO: [Synth 8-10285] module 'mcp' is ignored due to previous errors [D:/Udemy/FPGA course/Microprocessor Design/Simple-Microprocessor/Vivado/Vivado.srcs/sources_1/new/MCP.v:266]
+INFO: [Synth 8-9084] Verilog file 'D:/Udemy/FPGA course/Microprocessor Design/Simple-Microprocessor/Vivado/Vivado.srcs/sources_1/new/MCP.v' ignored due to errors
+Failed to read verilog 'D:/Udemy/FPGA course/Microprocessor Design/Simple-Microprocessor/Vivado/Vivado.srcs/sources_1/new/MCP.v'
+INFO: [Common 17-83] Releasing license: Synthesis
+12 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Sun Mar  5 18:49:28 2023...

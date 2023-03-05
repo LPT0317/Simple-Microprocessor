@@ -1,16 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: Closure Laboratories
-// Engineer: Eduardo Corpeño
+// Company: 
+// Engineer: 
 // 
-// Create Date: 05/26/2020 08:44:29 AM
-// Design Name: Jimmy Program Memory 1
-// Module Name: program_memory1
-// Project Name: Jimmy
-// Target Devices: BASYS3 Board (Artix 7: XC7A35T-1CPG236C)
-//                 DE0-CV Board (Intel Cyclone V: 5CEBA4F23C7N)
-// Tool Versions: Xilinx Vivado 2019, Quartus Prime 19.1, Lattice Diamond
-// Description: A basic 8-bit processor for a CPU design course.
+// Create Date: 03/05/2023 04:39:44 PM
+// Design Name: 
+// Module Name: program_memory
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
 // 
 // Dependencies: 
 // 

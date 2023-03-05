@@ -1,6 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Udemy/FPGA course/Microprocessor Design/Simple-Microprocessor/Vivado/Vivado.srcs/sources_1/new/MCP.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module mcp
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Udemy/FPGA course/Microprocessor Design/Simple-Microprocessor/Vivado/Vivado.srcs/sources_1/new/program_memory1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module program_memory1
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Udemy/FPGA course/Microprocessor Design/Simple-Microprocessor/Vivado/Vivado.srcs/sim_1/new/testing_prog1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module testing_prog1

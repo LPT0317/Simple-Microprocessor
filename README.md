@@ -55,6 +55,10 @@ CPU supports the following Addressing Modes:
 \
 ![alt text](image/System.jpg)
 ## Simulation on Vivado
-Add to number A and B. Waveform:
+- Add 2 number A and B.
 \
-![alt text](image/Sim_prog1.JPG)
+![alt text](image/Sim_prog1.jpg)
+\
+- Fibonacci
+\
+![alt text](image/Sim_prog2.jpg)
